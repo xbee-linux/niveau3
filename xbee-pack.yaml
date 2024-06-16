@@ -1,8 +1,9 @@
 schema-version: 1.0
 
+dependency: curl
+
 builders:
     - automake
     - readline
-    - curl
     - intltool
     - nettle
