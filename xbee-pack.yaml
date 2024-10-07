@@ -1,6 +1,8 @@
 schema-version: 1.0
 
-dependency: curl
+dependency:
+    - curl
+    - wget
 
 builder:
     - automake
