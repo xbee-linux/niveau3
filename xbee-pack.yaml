@@ -2,7 +2,7 @@ schema-version: 1.0
 
 dependency: curl
 
-builders:
+builder:
     - automake
     - readline
     - intltool
